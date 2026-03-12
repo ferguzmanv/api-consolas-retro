@@ -1,0 +1,186 @@
+{
+  "info": {
+    "_postman_id": "03e6b5fa-a0eb-4260-bf07-33c995e67a53",
+    "name": "API Consolas Retro",
+    "description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52922631",
+    "_collection_link": "https://go.postman.co/collection/52922631-03e6b5fa-a0eb-4260-bf07-33c995e67a53?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Post usuarios",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"nombre\": \"Sega Genesis\",\r\n    \"fabricante\": \"Sega\",\r\n    \"año\": 1989,\r\n    \"generacion\": 4,\r\n    \"descripcion\": \"La competidora directa de la SNES.Famoso por sonic y su procesor 16 bits.\",\r\n    \"precioEstimado\": 180\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/consolas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "consolas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Post consola",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"nombre\": \"Sega Genesis\",\r\n    \"fabricante\": \"Sega\",\r\n    \"año\": 1989,\r\n    \"generacion\": 4,\r\n    \"descripcion\": \"La competidora directa de la SNES.Famoso por sonic y su procesor 16 bits.\",\r\n    \"precioEstimado\": 180\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/consolas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "consolas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Post juegos",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Login token",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"username\": \"ariela\",\r\n  \"email\": \"ariela@mail.com\",\r\n  \"password\": \"Ariela123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/usuarios/debug",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "usuarios",
+            "debug"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Login token Copy",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"username\": \"ariela\",\r\n  \"email\": \"ariela@mail.com\",\r\n  \"password\": \"Ariela123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/usuarios/debug",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "usuarios",
+            "debug"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "lista de usuarios",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "lista de consola",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "lista de juegos",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Delete consola",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Put consola",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
